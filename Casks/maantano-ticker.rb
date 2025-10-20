@@ -1,5 +1,5 @@
 cask "maantano-ticker" do
-  version "2.0.1"
+  version "1.2.2"
   sha256 :no_check # Auto-update on each release
 
   arch arm: "-arm64", intel: ""
