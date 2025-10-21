@@ -1,12 +1,12 @@
 cask "maantano-ticker" do
-  version "1.2.3"
+  version "1.3.0"
   sha256 :no_check # Auto-update on each release
 
   arch arm: "-arm64", intel: ""
 
-  url "https://github.com/maantano/maantano-ticker/releases/download/v#{version}/Maantano.Ticker-#{version}#{arch}.dmg"
+  url "https://github.com/maantano/maantano-ticker/releases/download/v#{version}/Maantano%20Ticker-#{version}#{arch}.dmg"
   name "Maantano Ticker"
-  desc "Real-time Korean stock ticker for macOS menubar"
+  desc "Real-time Korean stock ticker for macOS menubar with extended hours trading support"
   homepage "https://github.com/maantano/maantano-ticker"
 
   livecheck do
